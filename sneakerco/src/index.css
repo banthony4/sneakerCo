@@ -5,9 +5,177 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: linear-gradient(90deg, rgba(0,212,255,1) 0%, white 50%, rgba(0,212,255,1) 100%); */
+  /* background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiFQFjIeMg6WIOYYx3l5DMd--2zlqasV4gag&usqp=CAU") ; */
+  /* background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-FaMkK5noIc3jAlNc8n_zLwEsAWf_gFc2SQ&usqp=CAU"); */
+  background-image:url("https://swall.teahub.io/photos/small/68-682877_sneaker-wallpapers-group-.jpg"); 
+  /* background-image:url("src/Components/react-project.jpg"); */
+  background-size:contain;
+  background-position: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.react-project.jpg
+{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 20;
+}
+.Sneaker {
+  width: 450px;
+  height: auto;
+  overflow: hidden;
+  display: inline-grid;
+  outline: 1px solid black;
+  text-align: center;
+  background-color:white;
+}
+.Sneaker:hover{
+  box-shadow: 0 8px 50px 0 rgba(36, 146, 209, 0.685);
+}
+.Home{
+  text-align: center;
+}
+.Home h1{
+  color: rgb(0, 67, 212);
+  font-size: 50px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(11, 173, 248);
+}
+
+.HomeButton{
+  background-color: #ffffff07;
+  opacity: 50%;
+  font-size: 30px;
+  border-radius: 30%;
+  margin-top: -10px;
+  position: absolute;
+  bottom: -30%;
+  right: 45%;
+
+}
+
+.SneakerDetails {
+  width: 800px;
+  height: auto;
+  outline: 1px solid black;
+  text-align: center;
+  background-color:white;
+  position: fixed;
+  top: 25%;
+  right: 25%;
+  border: 3px solid #1889ca;
+  box-shadow: 0 8px 16px 0 rgba(36, 146, 209, 0.685);
+}
+
+.details p{
+  display: inline;
+}
+
+.appHeader{
+  text-align: center;
+}
+.header{
+  text-align: center;
+  width: 150px;
+  height: 100%;
+  
+}
+
+.button{
+  text-align: center; 
+  letter-spacing:2px;
+  padding-right: 180px;
+  padding-left: 195px; 
+  font-weight: bold ;
+  font-family: fantasy;
+  color: white;
+  background-color: black;
+  opacity: .80;
+  border-radius:5rem;
+    box-shadow: 1px 2.9px 16px rgba(27,139,249,0.4);
+}
+.button1{
+  text-align: center; 
+  letter-spacing:2px;
+  padding-right: 180px;
+  padding-left: 190px; 
+  font-weight: bold ;
+  font-family: fantasy;
+  color: white;
+  background-color: black;
+  opacity: .80;
+  border-radius: 5rem;
+  box-shadow: 1px 2.9px 16px rgba(27,139,249,0.4);
+  }
+/* .button1:hover{opacity: 1} */
+.button1:hover, .button1.active{
+  opacity: 1;
+  background-color: lightblue;
+  color: black;}
+.button:hover, .button.active{
+  opacity:1;
+  background-color:lightblue;
+  color: black;
+}
+.branding:hover{
+  opacity:1;
+  background-color:lightblue;
+  color: black;
+
+}
+
+.branding
+{
+    text-align: center;
+    font-family:fantasy;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing:2.2px;
+    background-color:black;
+    opacity:.80;
+    padding:15px 50px;
+    border-radius:5rem;
+    box-shadow: 1px 2.9px 16px rgba(27,139,249,0.4);
+}
+
+#year{
+  float: left;
+  padding-left: 10px;
+}
+#brand{
+  float: right;
+  padding-right: 10px;
+}
+
+img{
+  text-align: center;
+  height: 200px;
+  width: auto;
+}
+
+.filters{
+  display: inline-block;
+  margin-left: 40px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+  font-family: fantasy;
+  letter-spacing: 2.2px;
+  /* outline: black; */
+}
+
+h2{
+  display: inline-block;
+  margin-left: 40px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+  font-family: fantasy;
+  letter-spacing: 2.2px;
 }
