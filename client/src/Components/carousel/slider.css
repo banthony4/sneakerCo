@@ -1,6 +1,5 @@
-
 :root {
-  --heights: 50vh;
+  --heights: 55vh;
   --widths: 100%;
 }
 
@@ -10,9 +9,6 @@
   position: relative;
   margin: auto;
   overflow: hidden;
-}
-.arrows .prev{
-  float: left;
 }
 
 .active {
@@ -62,9 +58,15 @@
   width: auto;
   padding: 1rem;
   margin-top: -3rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
   font-size: 40px;
   font-weight: bold;
   border-radius: 0px 5px 5px 0px;
+}
+.prev{
+  position: absolute;
+  left: 0;
 }
 
 .slider-container:hover .prev,.slider-container:hover .next {
@@ -99,7 +101,6 @@
   width: 1.5rem;
   margin: 0px 3px;
   background-color: transparent;
-  /* background-color: rgba(0, 0, 0, 0.3); */
   border-radius: 50%;
   display: inline-block;
 }
@@ -107,10 +108,6 @@
 .slider-container:hover .dot:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
-
-/* .active-dot {
-  background-color: rgba(255, 255, 255, 0.5);
-} */
 
 .slider-container:hover .dot{
   background-color: rgba(0, 0, 0, 0.3);

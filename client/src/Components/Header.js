@@ -8,7 +8,7 @@ function Header() {
       <nav>
       <Link to="/" style={{borderBottom: "none"}}>
           <h1 className="branding">
-            Sneaker World
+            SneakerCo.
           </h1>
         </Link>
         <div className="navigation">

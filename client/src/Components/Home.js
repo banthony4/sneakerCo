@@ -21,6 +21,8 @@ function Home({mostPopular}) {
       <div>
         {renderMostPopular()}
       </div>
+      <br></br>
+      <br></br>
     </div>
   );
 }
